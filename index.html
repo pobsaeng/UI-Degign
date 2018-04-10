@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Hello, world!</title>
+
+    <style>
+        .btn-size {
+            /*width: 70% !important;*/
+        }
+
+        .col-no {
+            margin-right: 0;
+            margin-left: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid fixed-top">
+        <div class="row border">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="d-inline-flex p-3">
+                <h2>ฟอร์มขายสินค้า</h2>
+            </div>
+        </div>
+
+        <div class="row col-10 mx-auto justify-content-center">
+            <div class="col-2" style="padding-right:0;padding-left:0;">
+                <div class="input-group">
+                    รหัสสินค้า
+                </div>
+            </div>
+
+            <div class="col-6" style="padding-right:0;padding-left:0;">
+                <div class="input-group">
+                    ชื่อสินค้า
+                </div>
+            </div>
+            <div class="col-2" style="padding-right:0;padding-left:0;">
+                <div class="input-group">
+                    จำนวน:
+                </div>
+            </div>
+            <div class="col-2" style="padding-right:0;padding-left:0;">
+                <div class="input-group">
+                    ราคา:
+                </div>
+            </div>
+        </div>
+
+        <div class="row col-10 mx-auto justify-content-center">
+            <div class="col-2" style="padding-right:0;padding-left:0;">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search Product" aria-label="Search Product">
+                    <span class="input-group-btn"><button class="btn btn-default btn-success"><i class="fa fa-product-hunt fa-lg" aria-hidden="true"></i></button></span>
+                </div>
+            </div>
+
+            <div class="col-6" style="padding-right:1;padding-left:0;">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Product name" aria-label="Product name">
+                </div>
+            </div>
+            <div class="col-2" style="padding-right:1;padding-left:0;">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Amount" aria-label="Amount">
+                </div>
+            </div>
+            <div class="col-2" style="padding-right:0;padding-left:0;">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Price" aria-label="Price">
+                </div>
+            </div>
+        </div>
+
+        <br/>
+        <div class="row col-10 mx-auto justify-content-center">
+            <div class="col-10" style="padding-right:0;padding-left:0;">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col">No.</th>
+                            <th scope="col">สินค้า</th>
+                            <th scope="col">ราคา</th>
+                            <th scope="col">จำวน</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-2">
+                <div class="btn-vertical offset-2">
+                    <button type="button" class="btn btn-success btn-lg btn-block btn-size">เพิ่มสินค้า</button>
+                    <button type="button" class="btn btn-danger btn-lg btn-block btn-size">ลบรายการ</button>
+                    <button type="button" class="btn btn-warning btn-lg btn-block btn-size">เคลียร์ทั้งหมด</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row col-10 mx-auto">
+            <div class="col-10">
+                <nav aria-label="">
+                    <ul class="pagination float-right">
+                        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                        <li class="page-item"><a class="page-link" href="#">5</a></li>
+                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
